@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css">
+  <title>Cart</title>
+</head>
+<body>
+  <header>
+    <a href="#" class="logo">MyShop</a>
+    <div class="cert_icon">
+      <i class="fa-solid fa-bag-shopping" id="header_bag"></i>
+      <span class="cart_item_count"></span>
+    </div>
+  </header>
+
+  <div class="cart"> 
+    <h2 class="cart_title">Your Cart</h2>
+    <div class="cart_container">
+      <!-- <div class="cart_box"> 
+        <img src="images/product1.jpg" alt="">
+        <div class="cart_detail">
+          <h2 class="cart_product_name">Casual Black Polo</h2>
+          <span class="cart_product_price">$100</span>
+          <div class="cart_quantity">
+            <button id="decrement">-</button>
+            <span class="number">1</span>
+            <button id="increment">+</button>
+          </div>
+        </div>
+        <i class="fa-solid fa-trash cart_remove"></i>
+      </div> -->
+    </div>
+    <div class="total">
+      <div class="total_title">Total:</div>
+      <div class="total_price">$0</div>
+    </div>
+    <button class="buy_now">Buy Now</button>
+    <i class="fa-solid fa-rectangle-xmark" id="cart_close"></i>
+  </div>
+  
+  <section class="shop">
+    <h1 class="section_title">Shop Products</h1>
+    <div class="product_container">
+      <div class="product_box"> 
+        <div class="product_img">
+          <img src="images/product1.jpg" alt="">
+        </div>
+        <h2 class="product_name">Casual Black Polo</h2>
+        <div class="price_cart">
+          <span class="price">$120</span>
+          <button class="add_cart">Add to Cart</button>
+        </div>
+      </div>
+      <div class="product_box"> 
+        <div class="product_img">
+          <img src="images/product2.jpg" alt="">
+        </div>
+        <h2 class="product_name">Water Proof Hoodie</h2>
+        <div class="price_cart">
+          <span class="price">$75</span>
+          <button class="add_cart">Add to Cart</button>
+        </div>
+      </div>
+      <div class="product_box"> 
+        <div class="product_img">
+          <img src="images/product3.jpg" alt="">
+        </div>
+        <h2 class="product_name">Blue Sweatshirt</h2>
+        <div class="price_cart">
+          <span class="price">$20</span>
+          <button class="add_cart">Add to Cart</button>
+        </div>
+      </div>
+      <div class="product_box"> 
+        <div class="product_img">
+          <img src="images/product4.jpg" alt="">
+        </div>
+        <h2 class="product_name">Hoodie Jacket</h2>
+        <div class="price_cart">
+          <span class="price">$125</span>
+          <button class="add_cart">Add to Cart</button>
+        </div>
+      </div>
+      <div class="product_box"> 
+        <div class="product_img">
+          <img src="images/product5.jpg" alt="">
+        </div>
+        <h2 class="product_name">Cold Weather Jacket</h2>
+        <div class="price_cart">
+          <span class="price">$147</span>
+          <button class="add_cart">Add to Cart</button>
+        </div>
+      </div>
+      <div class="product_box"> 
+        <div class="product_img">
+          <img src="images/product6.jpg" alt="">
+        </div>
+        <h2 class="product_name">Sporty Jacket</h2>
+        <div class="price_cart">
+          <span class="price">$80</span>
+          <button class="add_cart">Add to Cart</button>
+        </div>
+      </div>
+      <div class="product_box"> 
+        <div class="product_img">
+          <img src="images/product7.jpg" alt="">
+        </div>
+        <h2 class="product_name">Olive Heritage Hoodie</h2>
+        <div class="price_cart">
+          <span class="price">$62</span>
+          <button class="add_cart">Add to Cart</button>
+        </div>
+      </div>
+      <div class="product_box"> 
+        <div class="product_img">
+          <img src="images/product8.jpg" alt="">
+        </div>
+        <h2 class="product_name">Bright Horizon Polo</h2>
+        <div class="price_cart">
+          <span class="price">$70</span>
+          <button class="add_cart">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
